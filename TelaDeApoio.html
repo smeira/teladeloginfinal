@@ -124,11 +124,15 @@ color: #fdfdfd; // cor botão de login
         	function Enviar(){
         	var emailCadastrado = "samanta.meira@gmail.com";
         	var senhaCadastrada = "chocolate123";
+              var emailCadastrado2 = "natofal@gmail.com";
+              var senhaCadastrada2 = "ronaldo123";
+
 
         	var emailFormulario = document.getElementById("email");
         	var senhaFormulario = document.getElementById("password");
 
-        	if (emailFormulario.value == emailCadastrado && senhaFormulario.value == senhaCadastrada) {
+        	if (emailFormulario.value == emailCadastrado && senhaFormulario.value == senhaCadastrada)
+        	  || (emailFormulario.value == emailCadastrado2 && senhaCadastrada.value == senhaCadastrada2 {
         	alert( 'Login efetuado com sucesso!');
         	}
         	else {
